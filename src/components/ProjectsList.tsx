@@ -9,7 +9,7 @@ function ProjectsList(){
     return (
         <>
             <h1>Projects</h1>
-            <ul className="list-group list-group-flush">
+            <ul className="list-group list-group-numbered">
                 {projects.map((project) => (
                     <li key={project}>{project}</li>
                 ))}

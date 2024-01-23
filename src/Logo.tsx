@@ -1,9 +1,5 @@
+import jacket from "../public/images/jacket.jpg"
 
-
-function Logo(){
-    return (
-        // <img src="C:\Users\MSI Gaming PC\Pictures\Screenshot 2022-05-15 043249.jpg">My jacket</img>
-        <h1> My Logo</h1>
-    )
+export default function Logo(){
+    return <img className="logo" src={jacket} alt="My logo(jacket)" />;
 }
-export default Logo

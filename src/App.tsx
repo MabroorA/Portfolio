@@ -9,7 +9,7 @@ function App() {
     <>
     <Menu/>
     <Logo/>
-    <ProjectsList/>
+    {/* <ProjectsList/> */}
     </>
   )
 }

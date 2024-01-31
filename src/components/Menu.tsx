@@ -1,6 +1,6 @@
-
-
-
+import React from "react";
+import pfp from "../assets/pfp.jpg";
+import "../App.css";
 // Experience: "web dev @ Minibikers",
 //         Education: "Uni of Leicester & WQE ",
 //         Projects: "Project list will go here ",
@@ -19,12 +19,13 @@ export default function Menu() {
 
     return (
         <>
-            <ul className="menu_items">
+            <div className="sidenav">
+                <img className="profile-picture" src={pfp} alt ="Profile Picture"></img>
                 <a href="#about">About</a>
-                <a href="#home">Experience</a>
-                <a href="#news">Projects</a>
-                <a href="#contact">Education</a>
-            </ul>
+                <a href="#experience">Experience</a>
+                <a href="#Projects">Projects</a>
+                <a href="#Education">Education</a>
+            </div>
         </>
     );
 }

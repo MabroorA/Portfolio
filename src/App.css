@@ -1,6 +1,22 @@
-.logo {
+
+
+
+
+.picture {
   border-radius: 50%;
   float: right;
-  width: 250px;
-  height: 250px;
+  width: 150px;
+  height: 150px;
+}
+.menu_items{
+  display:contents;
+}
+li {
+  float: left;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
 }

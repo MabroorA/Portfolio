@@ -14,9 +14,10 @@
 
 /* The navigation menu links */
 .sidenav a {
-  padding: 6px 8px 6px 16px;
+  margin-top: 25px;
+  padding: 6px 20px 10px 10px;
   text-decoration: none;
-  font-size: 50px;
+  font-size: 35px;
   text-align: center;
   color: #efecf2;
   display: block;
@@ -40,11 +41,13 @@
 }
 
 .sidenav .profile-picture {
-  border-radius: 50%;
-  padding-left: 10px;
-  padding-right: 10px;
+  border-radius: 60%;
+  padding: 25px;
+  width: 200px;
 }
-
+.icons{
+  float :left;
+}
 .picture {
   border-radius: 50%;
   float: right;

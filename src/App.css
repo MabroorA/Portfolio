@@ -45,11 +45,11 @@
   padding: 25px;
   width: 200px;
 }
-.icons{
-  float :left;
+/* main content*/
+.intro_section{
+  text-align: center;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-.picture {
-  border-radius: 50%;
-  float: right;
-  
+.icon{
+  size: 10px;
 }

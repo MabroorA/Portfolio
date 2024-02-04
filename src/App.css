@@ -50,5 +50,19 @@
 }
 .projects_section{
   padding-left: 200px;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+.project{
+  font-size: large;
+  display:grid;
+  font-variant: small-caps;
+  background-color: #22afb9;
+  text-align: center;
+  
+}
+.project h3{
+
+  font-size: x-large;
+  font-style: oblique;
+  background-color: #90d5da;
 }

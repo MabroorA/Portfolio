@@ -38,23 +38,31 @@
 }
 
 .sidenav .profile-picture {
-  border-radius: 60%;
+  border-radius: 70%;
   padding: 25px;
   width: 200px;
 }
 /* main content*/
 .intro_section {
-  text-align: center;
+  padding-left: 200px;
+  font-size: 500px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
-.icon {
-  size: 10px;
+.social_links {
+  padding-left: 200px;
+  display: grid;
+  text-align: right;
 }
+
 .projects_section {
   padding-left: 200px;
+  margin: 10px;
 }
 
 .experience {
   padding-left: 200px;
   margin: 10px;
+}
+.sub-title {
+  text-align: center;
 }

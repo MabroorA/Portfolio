@@ -8,7 +8,7 @@ export default function Projects() {
       <div className="projects_section">
         <h2 className="sub-title">Projects</h2>
         <div className="project">
-          <h3>Investment desision Tool</h3>
+          <h4>Investment desision Tool</h4>
           <ul>
             {" "}
             Developing an investment decision tool through data analysis and
@@ -26,7 +26,7 @@ export default function Projects() {
           </ul>
         </div>
         <div className="project">
-          <h3>Refugee Aid App</h3>
+          <h4>Refugee Aid App</h4>
           <ul>
             {" "}
             Worked collaboratively in an agile environment with 7 colleagues,
@@ -35,15 +35,15 @@ export default function Projects() {
           <ul>
             {" "}
             Utiulsed GitLab for efficient version control, ensuring regular
-            updates and synchronisation of the project.
+            updates and synchronisation of th4 project.
           </ul>
         </div>
         <div className="project">
-          <h3>Private Cloud Whiteboard App</h3>
+          <h4>Private Cloud Whiteboard App</h4>
           <ul> Deployed a containerised distributed appulcation on GCP.</ul>
           <ul>
             {" "}
-            Utiulsed Kubernetes for container orchestration and Docker for image
+            Utiulsed Kubernetes for container orch4stration and Docker for image
             creation to streamulne deployment and scalabiulty
           </ul>
           <ul>

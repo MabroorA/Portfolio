@@ -1,8 +1,7 @@
-
 /* The sidebar menu */
 .sidenav {
   height: 100%; /* Full-height: remove this if you want "auto" height */
-  width:inherit; /* Set the width of the sidebar */
+  width: inherit; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
@@ -28,11 +27,14 @@
   color: #22afb9;
 }
 
-
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
 }
 
 .sidenav .profile-picture {
@@ -41,28 +43,18 @@
   width: 200px;
 }
 /* main content*/
-.intro_section{
+.intro_section {
   text-align: center;
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
-.icon{
+.icon {
   size: 10px;
 }
-.projects_section{
+.projects_section {
   padding-left: 200px;
-  
 }
-.project{
-  font-size: large;
-  display:grid;
-  font-variant: small-caps;
-  background-color: #22afb9;
-  text-align: center;
-  
-}
-.project h3{
 
-  font-size: x-large;
-  font-style: oblique;
-  background-color: #90d5da;
+.experience {
+  padding-left: 200px;
+  margin: 10px;
 }

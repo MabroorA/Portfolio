@@ -9,11 +9,11 @@ function App() {
   return (
     <>
       <Menu />
-      <Intro />
-      <Projects />
-      <Experience />
-      {/* <Logo/> */}
-      {/* <ProjectsList/> */}
+      <div className="content">
+        <Intro />
+        <Projects />
+        <Experience />
+      </div>
     </>
   );
 }

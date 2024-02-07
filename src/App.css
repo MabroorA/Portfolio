@@ -6,7 +6,7 @@
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   left: 0;
-  background-color: #4a2a71; /* Black */
+  background-color: #adbc9f; /* Black */
   overflow-x: hidden; /* Disable horizontal scroll */
   margin-right: inherit;
 }
@@ -43,10 +43,13 @@
   width: 200px;
 }
 /* main content*/
+.content {
+  background-color: #436850;
+}
 .intro_section {
   padding-left: 200px;
+  margin: 10px;
   font-size: 500px;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 .social_links {
   padding-left: 200px;
@@ -65,4 +68,8 @@
 }
 .sub-title {
   text-align: center;
+  color: #fbfada;
+}
+.project_name {
+  color: #adbc9f;
 }

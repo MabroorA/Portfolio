@@ -6,7 +6,7 @@
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   left: 0;
-  background-color: #adbc9f; /* Black */
+  background-color: #76453b;
   overflow-x: hidden; /* Disable horizontal scroll */
   margin-right: inherit;
 }
@@ -18,7 +18,7 @@
   text-decoration: none;
   font-size: 35px;
   text-align: center;
-  color: #efecf2;
+  color: #f8fae5;
   display: block;
 }
 
@@ -44,17 +44,16 @@
 }
 /* main content*/
 .content {
-  background-color: #436850;
+  background-color: #43766c;
 }
 .intro_section {
-  padding-left: 200px;
-  margin: 10px;
+  padding-left: 220px;
+  padding-top: 10px;
   font-size: 500px;
 }
-.social_links {
+.social_links a {
   padding-left: 200px;
-  display: grid;
-  text-align: right;
+  color: #f8fae5;
 }
 
 .projects_section {
@@ -71,5 +70,5 @@
   color: #fbfada;
 }
 .project_name {
-  color: #adbc9f;
+  color: #c7b7a3;
 }

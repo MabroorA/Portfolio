@@ -14,6 +14,7 @@ export default function Intro() {
         <a href="mabroorahmed2@gmail.com">Mabroorahmed2@gmail.com</a>
         <a href="https://www.linkedin.com/in/mabroor-dev/">Linkedin</a>
         <a href="https://github.com/MabroorA">Github</a>
+        <p>Logos will go here</p>
       </div>
     </>
   );

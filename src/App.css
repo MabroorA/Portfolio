@@ -45,6 +45,7 @@
 /* main content*/
 .content {
   background-color: #43766c;
+  margin-bottom: 0px;
 }
 .intro_section {
   padding-left: 220px;
@@ -63,7 +64,9 @@
 
 .experience {
   padding-left: 200px;
-  margin: 10px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
 }
 .sub-title {
   text-align: center;

@@ -1,0 +1,15 @@
+.experience {
+  border: 1px white solid;
+  padding: 10px 10px;
+  margin: 20px 20px 0px 20px;
+}
+.experience ul {
+  color: #eeedeb;
+}
+.experience h2 {
+  color: #f6b17a;
+  font-size: 40px;
+}
+.experience h4 {
+  color: #ffcf81;
+}

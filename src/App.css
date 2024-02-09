@@ -1,29 +1,4 @@
 /* main content*/
 .content {
-  background-color: #43766c;
-  margin-bottom: 0px;
-}
-
-.social_links a {
-  padding-left: 200px;
-  color: #f8fae5;
-}
-
-.projects_section {
-  padding-left: 200px;
-  margin: 10px;
-}
-
-.experience {
-  padding-left: 200px;
-  margin-left: 10px;
-  margin-bottom: 0px;
-  padding-bottom: 10px;
-}
-.sub-title {
-  text-align: center;
-  color: #fbfada;
-}
-.project_name {
-  color: #c7b7a3;
+  background-color: #e0ccbe;
 }

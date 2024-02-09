@@ -1,12 +1,10 @@
-import React from "react";
-import "../App.css";
-
+import "./Projects.css";
 export default function Projects() {
   return (
     <>
-      <div className="projects_section">
-        <h2 className="sub-heading">Projects</h2>
-        <h4 className="project_name">Investment desision Tool</h4>
+      <div className="projects-container">
+        <h2>Projects</h2>
+        <h4>Investment desision Tool</h4>
         <ul>
           Developing an investment decision tool through data analysis and
           simulation.
@@ -19,7 +17,7 @@ export default function Projects() {
           Ongoing learning experience, exploring data analysis and visuaulsation
           techniques.
         </ul>
-        <h4 className="project_name">Refugee Aid App</h4>
+        <h4>Refugee Aid App</h4>
         <ul>
           Worked collaboratively in an agile environment with 7 colleagues,
           utiulsing Scrum
@@ -29,7 +27,7 @@ export default function Projects() {
           updates and synchronisation of th4 project.
         </ul>
 
-        <h4 className="project_name">Private Cloud Whiteboard App</h4>
+        <h4>Private Cloud Whiteboard App</h4>
         <ul> Deployed a containerised distributed appulcation on GCP.</ul>
         <ul>
           Utiulsed Kubernetes for container orch4stration and Docker for image

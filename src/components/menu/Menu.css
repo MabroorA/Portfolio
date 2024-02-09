@@ -1,29 +1,29 @@
 .sidenav {
   border: 5px rgb(0, 0, 0);
   width: 100%;
-  background-color: #1aaa67;
+  background-color: #3c3633;
   position: static;
 }
 
 /* The navigation menu links */
 .sidenav a {
   margin: 55px 25px;
-  border: 2px black solid;
+
   padding: 10px 10px;
-  background-color: rgb(255, 249, 249);
+
   text-decoration: none;
   font-size: 30px;
-  color: rgb(0, 0, 0);
-  display: inline-flex;
+  color: #eeedeb;
+  display: inline;
   float: right;
-  font-weight: bold;
-  border-radius: 30%;
+  font-weight: 600;
+  border-radius: 10%;
 }
 
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
-  color: rgb(231, 231, 231);
-  background-color: rgb(8, 8, 8);
+  color: #eeedeb;
+  background-color: #747264;
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
@@ -40,5 +40,5 @@
   border-radius: 70%;
   margin: 10px 10px;
   width: 150px;
-  border: 5px solid rgb(87, 172, 172);
+  border: 5px solid #e0ccbe;
 }

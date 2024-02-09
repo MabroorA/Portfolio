@@ -1,0 +1,9 @@
+.projects-container {
+  border: 1px white solid;
+  margin: 20px;
+  padding: 10px;
+}
+
+h2 {
+  color: #3c3633;
+}

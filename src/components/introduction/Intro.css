@@ -1,5 +1,16 @@
-.intro {
-  padding-left: 220px;
-  padding-top: 10px;
-  font-size: 500px;
+.container {
+  border: 1px white solid;
+  padding: 10px;
+}
+
+.intro h1 {
+  color: black;
+  font-family: fantasy;
+  text-shadow: 2px;
+  font-size: 100px;
+}
+.contact-details a {
+  color: rgb(0, 0, 0);
+  padding: 10px 10px;
+  float: right;
 }

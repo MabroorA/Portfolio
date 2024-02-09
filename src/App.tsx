@@ -1,7 +1,7 @@
-import Projects from "./components/Projects";
+import Projects from "./components/projects/Projects";
 import Menu from "./components/menu/Menu";
-import Intro from "./components/Intro";
-import Experience from "./components/Experience";
+import Intro from "./components/introduction/Intro";
+import Experience from "./components/experience/Experience";
 import "./App.css";
 function App() {
   return (

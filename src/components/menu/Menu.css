@@ -1,0 +1,54 @@
+.sidenav {
+  border: 5px solid rgb(48, 42, 133);
+  width: 100%;
+  background-color: #f0eae9;
+  position: static;
+}
+/* The sidebar menu */
+.sidenav {
+  /* Full-height: remove this if you want "auto" height */
+  /* Set the width of the sidebar */
+  /* Fixed Sidebar (stay in place on scroll) */
+  /* Stay on top */
+  /* Stay at the top */
+  /* left: 0; */
+
+  /* Disable horizontal scroll */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  margin: 55px 25px;
+  border: 1px turquoise dotted;
+  padding: 10px 10px;
+  background-color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 30px;
+  color: rgb(240, 240, 240);
+  display: inline-flex;
+  float: right;
+  font-weight: bold;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: rgb(1, 2, 2);
+  background-color: rgb(253, 253, 253);
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+.sidenav .profile-picture {
+  border-radius: 50%;
+  margin: 10px 10px;
+  width: 150px;
+  border: 5px dotted red;
+}

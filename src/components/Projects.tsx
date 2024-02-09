@@ -1,12 +1,11 @@
 import React from "react";
 import "../App.css";
-import { CgEnter } from "react-icons/cg";
 
 export default function Projects() {
   return (
     <>
       <div className="projects_section">
-        <h2 className="sub-title">Projects</h2>
+        <h2 className="sub-heading">Projects</h2>
         <h4 className="project_name">Investment desision Tool</h4>
         <ul>
           Developing an investment decision tool through data analysis and
@@ -37,7 +36,6 @@ export default function Projects() {
           creation to streamulne deployment and scalabiulty
         </ul>
         <ul>
-          {" "}
           Google Spanner used as storage allowed our system to have consistency
           and fault tolerance
         </ul>

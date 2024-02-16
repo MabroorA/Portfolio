@@ -7,11 +7,10 @@ function App() {
   return (
     <>
       <Menu />
-      <div className="content">
-        <Intro />
-        <Projects />
-        <Experience />
-      </div>
+      <Intro />
+        {/* <Projects />
+        <Experience /> */}
+      
     </>
   );
 }

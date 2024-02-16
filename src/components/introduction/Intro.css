@@ -1,18 +1,20 @@
-.intro-container {
-  border: 2px white solid;
-  padding: 10px;
-  text-align: center;
-  margin: 0px 20px 20px 20px;
+.intro-box {
+  border: 1px white solid;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
   color: #faf6f0;
+  height: 200px;
+  width: 100;
+}
+.pfp{
+  border: 4px lightcoral solid;
+  border-radius: 50%;
+  width:150px;
+
 }
 
-.intro h1 {
-  font-family: fantasy;
-  font-size: 100px;
-}
-p {
-  font-weight: bold;
-}
 .contact-details a {
   color: #faf6f0;
   margin: 10px;

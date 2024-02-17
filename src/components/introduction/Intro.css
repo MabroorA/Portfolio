@@ -1,21 +1,58 @@
 .intro-box {
-  border: 1px white solid;
+  /* border: 1px white solid; */
   
   display: flex;
   flex-direction: row;
-  justify-content:space-around;
+  justify-content:flex-start;
   color: #faf6f0;
-  height: 200px;
-  width: 100;
+  height: inherit;
+  padding: 0px;
+  margin-top: 90px;
+  max-width:100%;
+  min-width: fit-content;
+}
+.intro {
+  padding:15px 0px ;
+  
+  font-family: Helvetica ;
+  max-width: 600px;
+  min-width: 500px;
+}
+.intro h6{
+  font-family: Helvetica ;
+  font-size: 29px;
+  font-weight: 700;
 }
 .pfp{
   border: 4px lightcoral solid;
   border-radius: 50%;
-  width:150px;
-
+  width:140px;
+  margin-right:50px ;
+}
+.icon{
+  margin:5px ;
+  font-size: 17px;
+  font-weight: 400;
+  
 }
 
-.contact-details a {
-  color: #faf6f0;
-  margin: 10px;
+.links a {
+  color: #A8ADB2;
+  
+  display: inline;
+  flex-direction: column;
+  justify-content:space-evenly;
+  margin-inline: 0px 20px;
+
+  text-decoration: none;
+}
+
+.gmail:hover{
+  color: #EE7470;
+}
+.linkedin:hover{
+  color: #2966BC;
+}
+.github:hover{
+  color: white;
 }

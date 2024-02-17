@@ -1,6 +1,6 @@
 .projects-container {
   border: 1px white solid;
-  margin: 20px;
+  margin-top: 50px;
   padding: 10px;
   color: #f3eeea;
 }
@@ -12,9 +12,5 @@
 }
 .projects-container h4 {
   font-size: 25px;
-  color: #ffcf81;
-}
-.projects-container h4 {
-  font-size: 25px;
-  color: #ffcf81;
+  color: #F08080;
 }

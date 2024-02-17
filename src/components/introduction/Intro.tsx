@@ -1,5 +1,9 @@
 import "./Intro.css";
 import pfp from "./pfp.jpg"
+import { BsLinkedin } from "react-icons/bs";
+import { SiGmail } from "react-icons/si";
+import { FaGithub } from "react-icons/fa";
+
 export default function Intro() {
   return (
     <>
@@ -10,13 +14,26 @@ export default function Intro() {
         <div>
           <div className="intro">
             <h6>
-              Hey ,I'm Mabroor. I'm a Software engineer soon to be a graduate
+              Hey, I'm Mabroor. I'm a software developer, soon to graduate in
+              computer science.
             </h6>
           </div>
-          <div className="contact-details">
-            <a href="mabroorahmed2@gmail.com">Mabroorahmed2@gmail.com</a>
-            <a href="https://www.linkedin.com/in/mabroor-dev/">Linkedin</a>
-            <a href="https://github.com/MabroorA">Github</a>
+          <div className="links">
+            <a className="gmail" href="mabroorahmed2@gmail.com">
+              <SiGmail className="icon" color="#EE7470" />
+              Mabroorahmed2@gmail.com
+            </a>
+            <a
+              className="linkedin"
+              href="https://www.linkedin.com/in/mabroor-dev/"
+            >
+              <BsLinkedin className="icon" color="#2966BC" />
+              Linkedin
+            </a>
+            <a className="github" href="https://github.com/MabroorA">
+              <FaGithub className="icon" />
+              Github
+            </a>
           </div>
         </div>
       </div>

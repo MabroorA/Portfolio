@@ -1,6 +1,10 @@
 /* main content*/
-* {
+*{
+  box-sizing: border-box;
   background-color: #0C0F11;
-  margin: 10px 90px ;
+}
+.main{
+  
+  margin: 40px 25% ;
 
 }

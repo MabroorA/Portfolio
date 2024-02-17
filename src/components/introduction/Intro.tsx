@@ -13,7 +13,7 @@ export default function Intro() {
         </div>
         <div>
           <div className="intro">
-            <h6>Asslamu alaikum, I'm Mabroor.</h6>
+            <h6>Peace Be Upon You, I'm Mabroor.</h6>
             <h6>
               Software developer, experienced in building full stack applications.
             </h6>

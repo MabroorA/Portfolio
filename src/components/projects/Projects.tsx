@@ -2,7 +2,7 @@ import "./Projects.css";
 export default function Projects() {
   return (
     <>
-      <div className="projects-container">
+      <div className="projects">
         <h2>Projects</h2>
         <h4>Stocks Prediction App</h4>
         <ul>

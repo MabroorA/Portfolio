@@ -1,4 +1,4 @@
-.projects-container {
+.projects {
   /* border: 1px white solid; */
   margin-top: 50px;
   padding: 10px;
@@ -6,19 +6,20 @@
   
 }
 
-.projects-container h2 {
+.projects h2 {
   color: white;
-  font-weight: bold;
-  font-size: xx-large;
+  font-weight: 600;
+  font-size: 30px;
   text-align: left;
+  margin:0px 0px 40px 0px;
 
 }
-.projects-container h4 {
+.projects h4 {
   font-size: x-large;
   color: #F08080;
   animation: fade-right 0.7s ease-in-out;
 }
-.projects-container ul {
+.projects ul {
   animation: fade-right 0.8s ease-in;
 }
 @keyframes fade-left {

@@ -33,7 +33,7 @@
   
 }
 .intro {
-  padding:15px 0px ;
+  padding:0px 0px ;
   
   font-family: Helvetica ;
   max-width: 600px;
@@ -47,7 +47,7 @@
   animation: fade-right 0.7s ease-in-out;
 }
 .pfp{
-  border: 4px lightcoral solid;
+  border: 3.5px lightcoral solid;
   border-radius: 50%;
   width:140px;
   margin-right:50px ;

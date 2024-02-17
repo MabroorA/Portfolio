@@ -2,7 +2,7 @@
     color: white;
     display:flex;
     margin-left: 190px;
-    animation: fade-right 0.8s ease-in;
+    animation: fade-right 0.7s ease-in-out;
 }
 .title {
     margin-top: 30px;
@@ -24,7 +24,7 @@
 }
 .item ul {
     animation: slide-up 12s infinite;
-    font-weight: bolder;
+    font-weight: 500;
     white-space: nowrap;
 }
 @keyframes fade-left {

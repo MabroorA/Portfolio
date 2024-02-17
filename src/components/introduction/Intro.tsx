@@ -3,6 +3,9 @@ import pfp from "./pfp.jpg"
 import { BsLinkedin } from "react-icons/bs";
 import { SiGmail } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
+import { PiHandWavingFill } from "react-icons/pi";
+
+
 
 export default function Intro() {
   return (
@@ -13,7 +16,7 @@ export default function Intro() {
         </div>
         <div>
           <div className="intro">
-            <h6>Peace Be Upon You, I'm Mabroor.</h6>
+            <h6><PiHandWavingFill color={"#C5946C"}/> Hey, I'm Mabroor.</h6>
             <h6>
               Software developer, experienced in building full stack applications.
             </h6>

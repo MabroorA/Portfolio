@@ -8,7 +8,7 @@ export default function Menu() {
         <a className="name" href="/home">
           Mabroor Ahmed
         </a>
-        <div>
+        <div className="rlist">
           <a href="/experience">Experience</a>
           <a href="/Projects">Projects</a>
           <a href="/Education">Education</a>

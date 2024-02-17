@@ -13,9 +13,9 @@ export default function Intro() {
         </div>
         <div>
           <div className="intro">
+            <h6>Asslamu alaikum, I'm Mabroor.</h6>
             <h6>
-              Hey, I'm Mabroor. I'm a software developer, soon to graduate in
-              computer science.
+              Software developer, experienced in building full stack applications.
             </h6>
           </div>
           <div className="links">

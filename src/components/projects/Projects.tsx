@@ -4,34 +4,41 @@ export default function Projects() {
     <>
       <div className="projects-container">
         <h2>Projects</h2>
-        <h4>Investment desision Tool</h4>
+        <h4>Stocks Prediction App</h4>
         <ul>
-          Developing an investment decision tool through data analysis and
+          Developed a stocks investment decision tool through data analysis and
           simulation.
         </ul>
         <ul>
-          Integrated Alpha Vantage API for data collection, which will be
-          trained on a LSTM-Machine learning model
+          Integrated stocks API for data collection, which are trained on a
+          machine learning model.
         </ul>
         <ul>
-          Ongoing learning experience, exploring data analysis and visuaulsation
-          techniques.
+          Created dynamic react components with unit tests for landing pages.
         </ul>
+
         <h4>Refugee Aid App</h4>
         <ul>
-          Worked collaboratively in an agile environment with 7 colleagues,
-          utiulsing Scrum
+          Created a Full stack app that allows new refugees to receive and
+          search for help easily.
         </ul>
         <ul>
-          Utiulsed GitLab for efficient version control, ensuring regular
-          updates and synchronisation of th4 project.
+          Collaborated in an agile work environment with 7 colleagues, utilising
+          Scrum.
+        </ul>
+        <ul>
+          Utilised GitLab for efficient version control, ensuring regular
+          updates and synchronisation of the project.
         </ul>
 
         <h4>Private Cloud Whiteboard App</h4>
-        <ul> Deployed a containerised distributed appulcation on GCP.</ul>
         <ul>
-          Utiulsed Kubernetes for container orch4stration and Docker for image
-          creation to streamulne deployment and scalabiulty
+          Deployed a distributed application on GCP which allows different
+          machines to collaborate.
+        </ul>
+        <ul>
+          Utilised Kubernetes for container orchestration and Docker for image
+          creation to streamline deployment and scalability.
         </ul>
         <ul>
           Google Spanner used as storage allowed our system to have consistency

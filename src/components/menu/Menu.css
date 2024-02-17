@@ -1,28 +1,31 @@
-.menu a {
+.rlist a{
   color: aliceblue;
   font-style: normal;
   text-decoration: none;
   margin: 10px;
+  font-size: x-large;
 }
-.menu a:hover {
+.rlist a:hover {
   color:lightcoral;
   
 }
 .name{
-  font-family: "system-ui";
-  font-size: large;
-  font-weight: 700;
+  font-size: x-large;
+  font-weight:bold;
+  color: lightcoral;
+  text-decoration: none;
+}
+.name:hover{
+  color:white;
 }
 .menu{
   display:flex;
   flex-direction: row;
   justify-content: space-between;
   font-family: monospace;
-  font-size:x-large;
-  font-weight:500;
+  font-size:large;
   max-width: 1600px;
-  min-width: 1000px;
-  min-width: 20%;
+  min-width: 90px;
 }
 
 

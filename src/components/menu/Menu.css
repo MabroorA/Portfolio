@@ -18,6 +18,9 @@
 .name:hover{
   color:white;
 }
+.hamburger{
+  display: none;
+}
 .menu{
   display:flex;
   flex-direction: row;
@@ -29,6 +32,7 @@
   animation: fade-down 0.7s ease-in;
   
 }
+
 @keyframes fade-down {
   0% {
     opacity: 0;
@@ -41,4 +45,49 @@
   
 }
 
+@media (max-width:768px) {
+    .menu{
+
+    font-family: monospace;
+    font-size:x-large;
+    font-weight: 500;
+    animation: fade-down 0.5s ease-in;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    }
+    .name{
+      
+
+    }
+    .rlist > div:not(.is-open){
+      display: none;
+    }
+    .rlist.is-open >div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-decoration: none;
+      font-size: medium;
+      color: aliceblue;
+      
+      
+    }
+
+    .hamburger{
+      display:block;
+      color: aliceblue;
+      font-family: monospace;
+      font-size:x-large;
+      animation: fade-down 0.5s ease-in;
+      position: absolute;
+      top: 0;
+      right:0;
+      margin-top: 30px;
+      margin-right: 20px;
+      color: lightcoral;
+      font-size: 35px;
+    }
+}
 

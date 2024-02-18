@@ -22,7 +22,7 @@ export default function TechStack() {
             <DiMysql size={33} /> MySQL
           </ul>
           <ul className="springboot">
-            <BiLogoSpringBoot size={33} /> SpringBoot
+            <BiLogoSpringBoot size={33} /> Spring Boot
           </ul>
           <ul className="docker">
             <GrDocker size={33} /> Docker

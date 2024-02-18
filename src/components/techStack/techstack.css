@@ -3,6 +3,7 @@
     display:flex;
     margin-left: 190px;
     animation: fade-right 0.7s ease-in-out;
+    font-family: monospace;
 }
 .title {
     margin-top: 30px;
@@ -13,8 +14,7 @@
 .item {
     /* margin-top: 30px; */
     /* margin: 15px 10px; */
-    color: #F08080;
-    font-size: 32px;
+    font-size: 30px;
     --height:3.8rem ;
     height: var(--height);
     line-height:var(--height);
@@ -61,6 +61,12 @@
 }
 .nodejs{
     color:#7AD253;
+}
+.mysql{
+    color:#087993;
+}
+.orange{
+    color:#E59208;
 }
 .springboot{
     color:#6AAD3D;

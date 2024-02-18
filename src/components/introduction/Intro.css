@@ -80,3 +80,19 @@
 .github:hover{
   color: white;
 }
+@media (max-width:768px) {
+    .intro-box{
+      display:flex;
+      flex-direction: row;
+      text-align: left;
+    }
+    .intro{
+      margin: 0 auto;
+
+    }
+    .links{
+      display: flex;
+      flex-direction: column;
+      
+    }
+}

@@ -83,16 +83,18 @@
 @media (max-width:768px) {
     .intro-box{
       display:flex;
-      flex-direction: row;
-      text-align: left;
+      flex-direction: column;
+      text-align: center;
     }
     .intro{
+      padding: 10px;
       margin: 0 auto;
-
+      text-align: center;
     }
     .links{
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
+      justify-content:center;
       
     }
 }

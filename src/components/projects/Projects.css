@@ -44,21 +44,21 @@
 }
 @media (max-width:768px) {
     .projects{
-      margin-top: 25px;
-      padding: 10px;
+      margin: 0px;
+      padding: 10px 0px;
       color: #f3eeea;
     }
     .projects h2 {
       color: white;
       font-weight: 600;
       font-size: xx-large;
-      text-align: center;
+      text-align: left;
       animation: fade-right 0.5s ease-in-out;
     }
     .projects h4 {
       font-size: x-large;
       color: #F08080;
-      text-align: center;
+      text-align: left;
       animation: fade-right 0.5s ease-in-out;
     }
     .projects ul {

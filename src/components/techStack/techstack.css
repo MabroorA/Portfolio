@@ -81,7 +81,8 @@
     .tech-stack{
         color: white;
         display:flex;
-        
+        flex-direction: row;
+        margin: 0px;
         animation: fade-left 0.7s ease-in-out;
         font-family: monospace;
     }
@@ -99,6 +100,7 @@
         height: var(--height);
         line-height:var(--height);
         overflow: hidden;
+        text-align: left;
         
     }
     .item ul {

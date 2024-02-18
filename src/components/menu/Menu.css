@@ -44,6 +44,15 @@
   }
   
 }
+@keyframes fade-left {
+  from {
+    opacity: 0;
+    transform: translateX(-300px) ;
+  }
+  to {
+    opacity: 1;
+  }
+}
 
 @media (max-width:768px) {
     .menu{
@@ -54,8 +63,7 @@
     animation: fade-down 0.5s ease-in;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    
+    align-items: left;
     }
     .name{
       
@@ -67,12 +75,10 @@
     .rlist.is-open >div {
       display: flex;
       flex-direction: column;
-      align-items: center;
+      align-items: left;
       text-decoration: none;
       font-size: medium;
-      color: aliceblue;
-      
-      
+      animation: fade-left 0.3s ease-in;
     }
 
     .hamburger{

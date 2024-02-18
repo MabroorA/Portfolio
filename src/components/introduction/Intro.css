@@ -84,12 +84,12 @@
     .intro-box{
       display:flex;
       flex-direction: column;
-      justify-content:left;
-      text-align: left;
+      align-items: flex-start;
     }
     .intro{
       padding: 10px;
       text-align: left;
+      max-width: 100%;
     }
     .links{
       display: flex;

@@ -19,7 +19,7 @@ export default function TechStack() {
           </ul>
           <ul className="mysql">
             {" "}
-            <DiMysql size={33} /> MySQL
+            <DiMysql size={33} /> My<span className="sql">SQL</span>
           </ul>
           <ul className="springboot">
             <BiLogoSpringBoot size={33} /> Spring Boot

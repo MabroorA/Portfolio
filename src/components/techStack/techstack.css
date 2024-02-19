@@ -83,11 +83,12 @@
         display:flex;
         flex-direction: row;
         margin: 0px;
+        padding: 0px; 
         animation: fade-left 0.7s ease-in-out;
         font-family: monospace;
     }
     .title {
-        margin-top: 30px;
+        margin-top: 30px 0px;
         font-size: xx-large;
         color: lightslategray;
 
@@ -95,8 +96,10 @@
     .item {
         /* margin-top: 30px; */
         /* margin: 15px 10px; */
+        
         font-size: xx-large;
-        --height:3.8rem ;
+        
+        --height:3.5rem ;
         height: var(--height);
         line-height:var(--height);
         overflow: hidden;

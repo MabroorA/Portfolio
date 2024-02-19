@@ -24,3 +24,17 @@
 @keyframes scroll-watcher{
   to {scale: 1 1;}
 }
+@media (max-width:768px) {
+    .scroll-watcher {
+    height: 2px;
+    position:sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: lightcoral;
+    width: 100%;
+    scale: 0 1;
+    animation: scroll-watcher linear;
+    animation-timeline: scroll();
+    transition: width 0.3s;
+  }
+}

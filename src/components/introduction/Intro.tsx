@@ -16,9 +16,12 @@ export default function Intro() {
         </div>
         <div>
           <div className="intro">
-            <h6><PiHandWavingFill color={"#C5946C"}/> Hey, I'm Mabroor.</h6>
-            <h6>
-              Software developer, experienced in building full stack applications.
+            <h6 className="intro-name">
+              <PiHandWavingFill color={"#C5946C"} /> Hey, I'm Mabroor.
+            </h6>
+            <h6 className="intro-desc">
+              <span className="inline">Software developer,</span>
+              <br /> experienced in building full stack applications.
             </h6>
           </div>
           <div className="links">

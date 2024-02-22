@@ -1,0 +1,31 @@
+.slidingwindow{
+    padding: 10px 0px;
+}
+.slide-item{
+   display: flex;
+   flex-direction:row; 
+   justify-content: space-around;
+   overflow: hidden;
+   margin: 30px auto;
+   
+   
+}
+
+@keyframes slide-left {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(calc(-100% + 800px)); /* End after 800px */
+  }
+}
+@media (max-width:768px) {
+   .slide-item{
+   display: flex;
+
+
+   
+   
+}
+    
+}

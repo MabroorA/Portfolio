@@ -1,5 +1,5 @@
 .slidingwindow{
-    padding: 10px 0px;
+    padding: 20px 0px;
 }
 .slide-item{
    display: flex;
@@ -9,6 +9,29 @@
    margin: 10px auto;
    
    
+}
+.project-title{
+    background-color: inherit;
+    border-radius: 8px;
+}
+
+.project-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 0px;
+    border-radius: 8px;
+}
+.project-card:hover{
+    background-color: whitesmoke;
+    
+}
+
+.project-stack{
+    padding: 5px auto;
+
+    border-radius: 8px;
+    background: transparent;
 }
 
 @keyframes slide-left {
@@ -28,4 +51,31 @@
    
 }
     
+}
+.react{
+    color:#5ED4F3;
+}
+.nodejs{
+    color:#7AD253;
+}
+.mysql{
+    color:#087993;
+}
+.postgresql{
+    color:#31648C;
+}
+.sql{
+    color:#E59208;
+}
+.springboot{
+    color:#6AAD3D;
+}
+.gcp{
+    color: orange;
+}
+.docker{
+    color:#1D63ED;
+}
+.kubernetes{
+    color:#3069DE;
 }

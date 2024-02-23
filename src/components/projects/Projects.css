@@ -1,27 +1,49 @@
-.projects {
-  /* border: 1px white solid; */
-  margin-top: 50px;
-  padding: 10px;
-  color: #f3eeea;
+.title{
+  color: white;
+  font-weight: 600;
+  font-size: 35px;
+  text-align: left;
+  margin: 50px 0px 20px 0px;
   
 }
 
-.projects h2 {
-  color: white;
-  font-weight: 600;
-  font-size: 30px;
-  text-align: left;
-  margin:0px 0px 40px 0px;
+.projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 
 }
-.projects h4 {
-  font-size: x-large;
-  color: #F08080;
-  animation: fade-right 0.7s ease-in-out;
+
+.project-title{
+    background-color: inherit;
+    font-size: x-large;
+    color: #F08080;
+    animation: fade-right 0.7s ease-in-out;
+    border-radius: 8px;
 }
-.projects ul {
-  animation: fade-right 0.8s ease-in;
+
+.project-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding: 10px 5px;
+    border-radius: 8px;
+    animation: fade-right 0.7s ease-in-out;
+    height: 200px;
+    width: 400px;
 }
+.project-card:hover{
+    background-color: whitesmoke;
+    
+}
+.refugeaid{
+  background-image: #F08080;
+}
+.project-stack{
+    background: transparent;
+}
+
 @keyframes fade-left {
   from {
     opacity: 0;

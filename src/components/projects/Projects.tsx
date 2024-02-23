@@ -11,8 +11,8 @@ import { FaNodeJs } from "react-icons/fa6";
 export default function Projects() {
   return (
     <>
+      <h2 className="title">Projects</h2>
       <div className="projects">
-        <h2>Projects</h2>
         <div className="project-card">
           <h4 className="project-title">Stocks Prediction App</h4>
           <div className="project-stack">
@@ -33,8 +33,8 @@ export default function Projects() {
             />
           </div>
         </div>
-        <div className="project-card">
-          <h4 className="project-title">Refugee Aid App</h4>
+        <div className="project-card refugeaid">
+          <h4 className="project-title ">Refugee Aid App</h4>
           <div className="project-stack">
             <FaReact
               className="react"
@@ -54,7 +54,7 @@ export default function Projects() {
           </div>
         </div>
         <div className="project-card">
-          <h4 className="project-title">Private Cloud Whiteboard App</h4>
+          <h4 className="project-title">Private Cloud App</h4>
           <div className="project-stack">
             <BiLogoGoogleCloud
               className="gcp"

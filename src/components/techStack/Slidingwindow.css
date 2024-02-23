@@ -10,29 +10,7 @@
    
    
 }
-.project-title{
-    background-color: inherit;
-    border-radius: 8px;
-}
 
-.project-card{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 10px 0px;
-    border-radius: 8px;
-}
-.project-card:hover{
-    background-color: whitesmoke;
-    
-}
-
-.project-stack{
-    padding: 5px auto;
-
-    border-radius: 8px;
-    background: transparent;
-}
 
 @keyframes slide-left {
   0% {

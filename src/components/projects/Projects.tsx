@@ -14,100 +14,74 @@ export default function Projects() {
       <h2 className="title">Projects</h2>
       <div className="projects">
         <div className="project-card stocks-prediction">
-          <h4 className="project-title">Stocks Prediction App</h4>
-          <div className="project-stack">
-            <FaReact
-              className="react"
-              size={40}
-              style={{ background: "transparent" }}
-            />
-            <FaNodeJs
-              className="nodejs"
-              size={40}
-              style={{ background: "transparent" }}
-            />
-            <BiLogoPostgresql
-              className="postgresql"
-              size={40}
-              style={{ background: "transparent" }}
-            />
+          <div className="project-card-header">
+            <h4 className="project-title">Stocks Prediction App</h4>
+            <div className="project-stack">
+              <FaReact
+                className="react"
+                size={40}
+                style={{ background: "transparent" }}
+              />
+              <FaNodeJs
+                className="nodejs"
+                size={40}
+                style={{ background: "transparent" }}
+              />
+              <BiLogoPostgresql
+                className="postgresql"
+                size={40}
+                style={{ background: "transparent" }}
+              />
+            </div>
           </div>
+          <div className="stock-pic"></div>
         </div>
-        <div className="project-card ">
-          <h4 className="project-title refuge-aid">Refugee Aid App</h4>
-          <div className="project-stack">
-            <FaReact
-              className="react"
-              size={40}
-              style={{ background: "transparent" }}
-            />
-            <TbBrandDjango
-              className="nodejs"
-              size={40}
-              style={{ background: "transparent" }}
-            />
-            <SiSqlite
-              className="postgresql"
-              size={40}
-              style={{ background: "transparent" }}
-            />
+        <div className="project-card refuge-aid">
+          <div className="project-card-header">
+            <h4 className="project-title">Refugee Aid App</h4>
+            <div className="project-stack">
+              <FaReact
+                className="react"
+                size={40}
+                style={{ background: "transparent" }}
+              />
+              <TbBrandDjango
+                className="nodejs"
+                size={40}
+                style={{ background: "transparent" }}
+              />
+              <SiSqlite
+                className="postgresql"
+                size={40}
+                style={{ background: "transparent" }}
+              />
+            </div>
           </div>
+          <div className="refuge-aid-pic">{/* image here */}</div>
         </div>
-        <div className="project-card">
-          <h4 className="project-title">Private Cloud App</h4>
-          <div className="project-stack">
-            <BiLogoGoogleCloud
-              className="gcp"
-              size={40}
-              style={{ background: "transparent" }}
-            />
-            <GrDocker
-              className="docker"
-              size={40}
-              style={{ background: "transparent" }}
-            />
-            <BiLogoKubernetes
-              className="kubernetes"
-              size={40}
-              style={{ background: "transparent" }}
-            />
+        <div className="project-card private-cloud">
+          <div className="project-card-header">
+            <h4 className="project-title">Private Cloud App</h4>
+            <div className="project-stack">
+              <BiLogoGoogleCloud
+                className="gcp"
+                size={40}
+                style={{ background: "transparent" }}
+              />
+              <GrDocker
+                className="docker"
+                size={40}
+                style={{ background: "transparent" }}
+              />
+              <BiLogoKubernetes
+                className="kubernetes"
+                size={40}
+                style={{ background: "transparent" }}
+              />
+            </div>
           </div>
+          <div className="private-cloud-pic">{/* image here */}</div>
         </div>
-        {/* <ul>
-          Deployed a distributed application on GCP which allows different
-          machines to collaborate.
-        </ul>
-        <ul>
-          Utilised Kubernetes for container orchestration and Docker for image
-          creation to streamline deployment and scalability.
-        </ul>
-        <ul>
-          Google Spanner used as storage allowed our system to have consistency
-          and fault tolerance
-        </ul> */}
-        {/* <ul>
-          Created a Full stack app that allows new refugees to receive and
-          search for help easily.
-        </ul>
-        <ul>
-          Collaborated in an agile work environment with 7 colleagues, utilising
-          Scrum.
-        </ul>
-        <ul>
-          Utilised GitLab for efficient version control, ensuring regular
-          updates and synchronisation of the project.
-        </ul> */}
-        {/* <ul>
-          Developed a stocks investment decision tool through data analysis and
-          simulation.
-        </ul>
-        <ul>
-          Integrated stocks API for data collection, which are trained on a
-          machine learning model.
-        </ul>
-        <ul>
-          Created dynamic react components with unit tests for landing pages.
-        </ul> */}
       </div>
     </>
   );

@@ -10,7 +10,7 @@
 .projects {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
 
 }
 
@@ -26,34 +26,66 @@
 
 .project-card{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
-    padding: 10px 5px;
-    border-radius: 8px;
+    flex-direction: column;
     animation: fade-right 0.7s ease-in-out;
-    height: 200px;
     width: 400px;
     transition: filter 0.5s ease;
 }
 .project-card:hover{
     background-color: whitesmoke;
+    filter: blur(0px);
+    transition: filter 0.5s ease;
     
 }
+.project-card-header{
+  display:flex ;
+  flex-direction:row ;
+  justify-content: space-between;
+  padding: 20px 0px;
+}
 .stocks-prediction{
-  
 
 }
-.stocks-prediction:hover {
- background-image: url("./Stocks-prediction_home.jpg");
+.stock-pic{
+  height: 200px;
+  width: 400px;
+  background-image: url("./Stocks-prediction_home.jpg");
   background-size: cover;
-  transition: filter 0.5s ease;
+  border-radius: 8px;
+  filter: blur(2px);
 }
-.refuge-aid{
-
+.stock-pic{
+  height: 200px;
+  width: 400px;
+  background-image: url("./Stocks-prediction_home.jpg");
+  background-size: cover;
+  border-radius: 8px;
+  filter: blur(2px);
 }
-.project-stack{
-    background: transparent;
+.stock-pic:hover{
+  filter: blur(0px);
+}
+.refuge-aid-pic{
+  height: 200px;
+  width: 400px;
+  background-image: url("./refugeap-home.jpg");
+  background-size: cover;
+  border-radius: 8px;
+  filter: blur(2px);
+}
+.stock-pic:hover{
+  filter: blur(0px);
+}
+.private-cloud-pic{
+  height: 200px;
+  width: 400px;
+  background-image: url("./refugeap-home.jpg");
+  background-size: cover;
+  border-radius: 8px;
+  filter: blur(2px);
+}
+.stock-pic:hover{
+  filter: blur(0px);
 }
 
 @keyframes fade-left {
@@ -73,8 +105,6 @@
   to {
     opacity: 1;
   }
-  
-  
 }
 @media (max-width:768px) {
     .title{
@@ -86,14 +116,12 @@
       animation: fade-right 0.5s ease-in-out;
       
     }
-
     .projects {
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
 
     }
-
     .project-title{
         background-color: inherit;
         font-size: x-large;
@@ -104,7 +132,6 @@
         filter:blur(0px);
         animation: fade-right 0.5s ease-in-out;
     }
-
     .project-card{
         display: flex;
         flex-direction: row;

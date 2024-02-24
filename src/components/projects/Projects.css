@@ -99,7 +99,7 @@
 
     .project-title{
         background-color: inherit;
-        font-size: x-large;
+        font-size: large;
         color: #F08080;
         animation: fade-right 0.7s ease-in-out;
         border-radius: 8px;

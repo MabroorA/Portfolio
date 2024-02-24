@@ -13,7 +13,7 @@ export default function Projects() {
     <>
       <h2 className="title">Projects</h2>
       <div className="projects">
-        <div className="project-card">
+        <div className="project-card stocks-prediction">
           <h4 className="project-title">Stocks Prediction App</h4>
           <div className="project-stack">
             <FaReact
@@ -33,8 +33,8 @@ export default function Projects() {
             />
           </div>
         </div>
-        <div className="project-card refugeaid">
-          <h4 className="project-title ">Refugee Aid App</h4>
+        <div className="project-card ">
+          <h4 className="project-title refuge-aid">Refugee Aid App</h4>
           <div className="project-stack">
             <FaReact
               className="react"

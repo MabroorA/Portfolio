@@ -37,7 +37,7 @@
   
   font-family: Helvetica ;
   max-width: 600px;
-  min-width: 500px;
+  /* min-width: 500px; */
   animation: fade-right 0.7s ease-in-out;
   max-width: 50v;
 }
@@ -106,14 +106,15 @@
     
     .intro-name{
       font-family: Helvetica ;
-      font-size: 35px;
+      font-size: 31px;
       font-weight: 700;
       animation: fade-right 0.7s ease-in-out;
     }
     .intro-desc{
       color: #A8ADB2;
-      font-size: 28px;
+      font-size: 25px;
       max-width: 100%;
+      word-wrap: break-word;
     }
     .pfp{
       animation: fade-left 0.7s ease-in-out;

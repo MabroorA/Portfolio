@@ -15,9 +15,10 @@
 }
 
 .project-title{
-    background-color: inherit;
+
     font-size: x-large;
     color: #F08080;
+    margin: 0;
     animation: fade-right 0.7s ease-in-out;
     border-radius: 8px;
     background:transparent ;
@@ -28,12 +29,31 @@
     flex-direction: column;
     animation: fade-right 0.7s ease-in-out;
     width: 400px;
-}
-.project-card:hover{
-    background-color: whitesmoke;
-    filter: blur(0px);
+    transition: transform 0.3s ease;
 
+}
+.projects:hover .project-card {
+  transform: scale(0.8);
+}
+
+.projects .project-card:hover {
+  transform: scale(1.2);
+}
+
+.projects:hover .project-card:hover {
+  transform: scale(1.2);
+}
+
+.projects:hover .project-card:not(:hover) {
+  transform: scale(0.8);
+}
+.project-stack{
+  background: transparent;
+}
     
+.stocks-prediction:hover{
+  cursor:default;
+  border-radius: 8px;
 }
 .project-card-header{
   display:flex ;
@@ -63,6 +83,7 @@
   background-size: cover;
   border-radius: 8px;
 }
+
 @keyframes fade-left {
   from {
     opacity: 0;

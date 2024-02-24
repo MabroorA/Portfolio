@@ -71,16 +71,11 @@ export default function TechStack() {
               <BiLogoGoogleCloud
                 size={30}
                 style={{ background: "transparent" }}
-              />{" "}Google Cloud <br/>Platform
+              />{" "}Google Cloud Platform
             </div>
           </div>
         </div>
-        <div className="learning-interest section subtitle">
-          <h5>Learning interest</h5>
-          <div className="technologies">
-            <h6 style={{ color: "white" }}>Machine learning </h6>
-          </div>
-        </div>
+
       </div>
     </>
   );

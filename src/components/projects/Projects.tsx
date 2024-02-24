@@ -18,17 +18,17 @@ export default function Projects() {
             <div className="project-stack">
               <FaReact
                 className="react"
-                size={40}
+                size={30}
                 style={{ background: "transparent" }}
               />
               <FaNodeJs
                 className="nodejs"
-                size={40}
+                size={30}
                 style={{ background: "transparent" }}
               />
               <BiLogoPostgresql
                 className="postgresql"
-                size={40}
+                size={30}
                 style={{ background: "transparent" }}
               />
             </div>
@@ -41,17 +41,17 @@ export default function Projects() {
             <div className="project-stack">
               <FaReact
                 className="react"
-                size={40}
+                size={30}
                 style={{ background: "transparent" }}
               />
               <TbBrandDjango
                 className="nodejs"
-                size={40}
+                size={30}
                 style={{ background: "transparent" }}
               />
               <SiSqlite
                 className="postgresql"
-                size={40}
+                size={30}
                 style={{ background: "transparent" }}
               />
             </div>
@@ -64,17 +64,17 @@ export default function Projects() {
             <div className="project-stack">
               <BiLogoGoogleCloud
                 className="gcp"
-                size={40}
+                size={30}
                 style={{ background: "transparent" }}
               />
               <GrDocker
                 className="docker"
-                size={40}
+                size={30}
                 style={{ background: "transparent" }}
               />
               <BiLogoKubernetes
                 className="kubernetes"
-                size={40}
+                size={30}
                 style={{ background: "transparent" }}
               />
             </div>

@@ -21,7 +21,6 @@
     animation: fade-right 0.7s ease-in-out;
     border-radius: 8px;
     background:transparent ;
-    filter:blur(0px);
 }
 
 .project-card{
@@ -29,12 +28,11 @@
     flex-direction: column;
     animation: fade-right 0.7s ease-in-out;
     width: 400px;
-    transition: filter 0.5s ease;
 }
 .project-card:hover{
     background-color: whitesmoke;
     filter: blur(0px);
-    transition: filter 0.5s ease;
+
     
 }
 .project-card-header{
@@ -42,8 +40,6 @@
   flex-direction:row ;
   justify-content: space-between;
   padding: 20px 0px;
-}
-.stocks-prediction{
 
 }
 .stock-pic{
@@ -52,18 +48,6 @@
   background-image: url("./Stocks-prediction_home.jpg");
   background-size: cover;
   border-radius: 8px;
-  filter: blur(2px);
-}
-.stock-pic{
-  height: 200px;
-  width: 400px;
-  background-image: url("./Stocks-prediction_home.jpg");
-  background-size: cover;
-  border-radius: 8px;
-  filter: blur(2px);
-}
-.stock-pic:hover{
-  filter: blur(0px);
 }
 .refuge-aid-pic{
   height: 200px;
@@ -71,23 +55,14 @@
   background-image: url("./refugeap-home.jpg");
   background-size: cover;
   border-radius: 8px;
-  filter: blur(2px);
-}
-.stock-pic:hover{
-  filter: blur(0px);
 }
 .private-cloud-pic{
   height: 200px;
   width: 400px;
-  background-image: url("./refugeap-home.jpg");
+  background-image: url("./Cloud-app-first-half.jpg");
   background-size: cover;
   border-radius: 8px;
-  filter: blur(2px);
 }
-.stock-pic:hover{
-  filter: blur(0px);
-}
-
 @keyframes fade-left {
   from {
     opacity: 0;

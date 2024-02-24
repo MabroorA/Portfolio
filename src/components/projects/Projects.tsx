@@ -80,7 +80,8 @@ export default function Projects() {
               />
             </div>
           </div>
-          <div className="private-cloud-pic">{/* image here */}</div>
+          <div className="private-cloud-pic">
+            <img src="./cloud-app-diagram.png" style={{height: 100 }} /> </div>
         </div>
       </div>
     </>

@@ -1,11 +1,14 @@
 .tech-stack{
     color: white;
     display:flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content:space-around;
+    max-width: 900px;
+    margin: 0 auto;
     animation: fade-right 0.7s ease-in-out;
     font-family: monospace;
     padding-top: 20px;
-    max-width: 860px;
+
     margin: 0 auto;
 }
 .subtitle{
@@ -15,14 +18,16 @@
 
 .section{
     display: flex;
-    flex-direction: row;
-    justify-content:left;
+    flex-direction: column;
+
 
 }
 .technologies{
     display: flex;
-    flex-direction: row;
-    padding-inline: 20px;
+    flex-direction: column;
+    margin: 5px 0px;
+    font-size:16px ;
+    font-weight: 900;
 }
 .react{
     color:#5ED4F3;

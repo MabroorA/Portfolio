@@ -1,6 +1,6 @@
 import { FaReact, FaNodeJs } from "react-icons/fa";
 import { DiMysql } from "react-icons/di";
-import { BiLogoSpringBoot, BiLogoKubernetes, BiLogoGoogleCloud } from "react-icons/bi";
+import { BiLogoSpringBoot, BiLogoKubernetes, BiLogoGoogleCloud, BiLogoPostgresql } from "react-icons/bi";
 import { GrDocker } from "react-icons/gr";
 import "./techstack.css";
 import { TbBrandDjango } from "react-icons/tb";
@@ -44,6 +44,13 @@ export default function TechStack() {
               <DiMysql size={30} style={{ background: "transparent" }} /> My
               <span className="sql">SQL</span>
             </div>
+            <div className="postgresql">
+              <BiLogoPostgresql
+                size={30}
+                style={{ background: "transparent" }}
+              />{" "}
+              PostgreSql
+            </div>
           </div>
         </div>
         <div className="other section subtitle">
@@ -57,19 +64,21 @@ export default function TechStack() {
               <BiLogoKubernetes
                 size={30}
                 style={{ background: "transparent" }}
-              />
+              />{" "}
               Kubernetes
+            </div>
+            <div className="gcp">
+              <BiLogoGoogleCloud
+                size={30}
+                style={{ background: "transparent" }}
+              />{" "}Google Cloud <br/>Platform
             </div>
           </div>
         </div>
         <div className="learning-interest section subtitle">
           <h5>Learning interest</h5>
           <div className="technologies">
-            <BiLogoGoogleCloud
-              className="gcp"
-              size={30}
-              style={{ background: "transparent" }}
-            />
+            <h6 style={{ color: "white" }}>Machine learning </h6>
           </div>
         </div>
       </div>

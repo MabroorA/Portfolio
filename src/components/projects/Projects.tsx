@@ -5,9 +5,8 @@ import { SiSqlite } from "react-icons/si";
 import { BiLogoGoogleCloud } from "react-icons/bi";
 import { GrDocker } from "react-icons/gr";
 import { BiLogoKubernetes } from "react-icons/bi";
-
-import "./Projects.css";
 import { FaNodeJs } from "react-icons/fa6";
+import "./Projects.css";
 export default function Projects() {
   return (
     <>

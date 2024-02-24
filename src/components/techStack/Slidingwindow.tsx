@@ -1,4 +1,3 @@
-import React from 'react'
 import { BiLogoKubernetes, BiLogoSpringBoot } from 'react-icons/bi'
 import { DiMysql } from 'react-icons/di'
 import { FaNodeJs, FaReact } from 'react-icons/fa'

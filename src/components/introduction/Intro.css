@@ -103,4 +103,23 @@
       justify-content:left;
       
     }
+    
+    .intro-name{
+      font-family: Helvetica ;
+      font-size: 35px;
+      font-weight: 700;
+      animation: fade-right 0.7s ease-in-out;
+    }
+    .intro-desc{
+      color: #A8ADB2;
+      font-size: 28px;
+      max-width: 100%;
+    }
+    .pfp{
+      animation: fade-left 0.7s ease-in-out;
+    }
+    .icon{
+    
+    }
+
 }

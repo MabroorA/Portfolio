@@ -3,14 +3,14 @@ import Menu from "./components/menu/Menu";
 import Intro from "./components/introduction/Intro";
 
 import "./App.css";
-import Slidingwindow from "./components/techStack/Slidingwindow";
+import TechStack from "./components/techStack/techstack";
 function App() {
   return (
     <>
       <div className="main">
         <Menu/>
         <Intro />
-        <Slidingwindow/>
+        <TechStack/>
         <Projects />
         {/* <Experience /> */}
       </div>

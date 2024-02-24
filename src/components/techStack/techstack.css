@@ -1,60 +1,26 @@
 .tech-stack{
+    margin-top: 20px;
     color: white;
     display:flex;
-    margin-left: 190px;
+    flex-direction: row;
+    justify-content: space-between;
     animation: fade-right 0.7s ease-in-out;
     font-family: monospace;
 }
-.title {
-    margin-top: 30px;
-    font-size: 30px;
+.subtitle{
+   color: lightcoral;
+}
 
+.section{
+    display: flex;
+    flex-direction: column;
+    justify-items: left;
 
 }
-.item {
-    /* margin-top: 30px; */
-    /* margin: 15px 10px; */
-    font-size: 30px;
-    --height:3.8rem ;
-    height: var(--height);
-    line-height:var(--height);
-    overflow: hidden;
-    margin-top: 20px ;
-    
-}
-.item ul {
-    animation: slide-up 12s infinite;
-    font-weight: 500;
-    white-space: nowrap;
-}
-@keyframes fade-left {
-  from {
-    opacity: 0;
-    transform: translateX(-300px) ;
-  }
-  to {
-    opacity: 1;
-  }
-}
-@keyframes slide-up {
-    0%, 10% {
-        transform: translateY(-10%);
-    }
-    15%, 25% {
-        transform: translateY(-135%);
-    }
-    30%, 40% {
-        transform: translateY(-260%);
-    }
-    45%, 55% {
-        transform: translateY(-390%);
-    }
-    60%, 70% {
-        transform: translateY(-515%);
-    }
-    75%, 85% {
-        transform: translateY(-640%);
-    }
+.technologies{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
 }
 .react{
     color:#5ED4F3;
@@ -65,11 +31,20 @@
 .mysql{
     color:#087993;
 }
+.postgresql{
+    color: #336791;
+}
 .sql{
     color:#E59208;
 }
+.sqlite{
+    color: #90CCEB;
+}
 .springboot{
     color:#6AAD3D;
+}
+.gcp{
+    color: orange;
 }
 .docker{
     color:#1D63ED;

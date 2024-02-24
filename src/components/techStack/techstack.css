@@ -1,31 +1,27 @@
 .tech-stack{
     color: white;
     display:flex;
-    flex-direction: row;
-    justify-content:space-around;
-    max-width: 970px;
-    margin: 0 auto;
+    flex-direction: column;
+    margin-left: 190px;
+    max-width: 700px;
     animation: fade-right 0.7s ease-in-out;
     font-family: monospace;
     padding-top: 20px;
-
-    margin: 0 auto;
 }
 .subtitle{
    color: lightcoral;
-   
 }
 
 .section{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
 
-
-}
+}   
 .technologies{
     display: flex;
-    flex-direction: column;
-    margin: 5px 0px;
+    flex-direction: row;
+    margin: 5px 10px;
     font-size:16px ;
     font-weight: 900;
 }

@@ -20,8 +20,7 @@ export default function Intro() {
               <PiHandWavingFill color={"#C5946C"} /> Hey, I'm Mabroor.
             </h6>
             <h6 className="intro-desc">
-              <span className="inline">Software developer,</span>
-              <br /> experienced in building full stack applications.
+              Software developer, experienced in building full stack applications.
             </h6>
           </div>
           <div className="links">

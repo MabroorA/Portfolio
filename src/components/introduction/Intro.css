@@ -36,7 +36,7 @@
   padding:0px 0px ;
   
   font-family: Helvetica ;
-  max-width: 600px;
+  max-width: 100%;
   /* min-width: 500px; */
   animation: fade-right 0.7s ease-in-out;
   max-width: 50v;

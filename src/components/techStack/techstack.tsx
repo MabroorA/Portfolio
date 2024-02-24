@@ -54,7 +54,7 @@ export default function TechStack() {
           </div>
         </div>
         <div className="other section subtitle">
-          <h5>Other</h5>
+          <h5>Cloud & other</h5>
           <div className="technologies">
             <div className="docker">
               <GrDocker size={30} style={{ background: "transparent" }} />{" "}
@@ -65,7 +65,7 @@ export default function TechStack() {
                 size={30}
                 style={{ background: "transparent" }}
               />{" "}
-              Kubernetes
+              Kubernetes 
             </div>
             <div className="gcp">
               <BiLogoGoogleCloud

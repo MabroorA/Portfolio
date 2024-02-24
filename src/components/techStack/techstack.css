@@ -1,26 +1,28 @@
 .tech-stack{
-    margin-top: 20px;
     color: white;
     display:flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
     animation: fade-right 0.7s ease-in-out;
     font-family: monospace;
+    padding-top: 20px;
+    max-width: 860px;
+    margin: 0 auto;
 }
 .subtitle{
    color: lightcoral;
+   
 }
 
 .section{
     display: flex;
-    flex-direction: column;
-    justify-items: left;
+    flex-direction: row;
+    justify-content:left;
 
 }
 .technologies{
     display: flex;
-    flex-direction: column;
-    justify-content: left;
+    flex-direction: row;
+    padding-inline: 20px;
 }
 .react{
     color:#5ED4F3;

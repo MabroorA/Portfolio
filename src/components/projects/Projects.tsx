@@ -14,7 +14,7 @@ export default function Projects() {
       <div className="projects">
         <div className="project-card stocks-prediction">
           <div className="project-card-header">
-            <h4 className="project-title">Stocks Prediction App</h4>
+            <h4 className="project-title">Stocks Prediction </h4>
             <div className="project-stack">
               <FaReact
                 className="react"
@@ -37,7 +37,7 @@ export default function Projects() {
         </div>
         <div className="project-card refuge-aid">
           <div className="project-card-header">
-            <h4 className="project-title">Refugee Aid App</h4>
+            <h4 className="project-title">Refugee Aid </h4>
             <div className="project-stack">
               <FaReact
                 className="react"
@@ -60,7 +60,7 @@ export default function Projects() {
         </div>
         <div className="project-card private-cloud">
           <div className="project-card-header">
-            <h4 className="project-title">Private Cloud App</h4>
+            <h4 className="project-title">Private Cloud </h4>
             <div className="project-stack">
               <BiLogoGoogleCloud
                 className="gcp"

@@ -33,7 +33,7 @@ export default function Projects() {
               />
             </div>
           </div>
-          <div className="stock-pic"></div>
+          {/* <div className="stock-pic"></div> */}
         </div>
         <div className="project-card refuge-aid">
           <div className="project-card-header">
@@ -56,7 +56,7 @@ export default function Projects() {
               />
             </div>
           </div>
-          <div className="refuge-aid-pic">{/* image here */}</div>
+          {/* <div className="refuge-aid-pic"></div> */}
         </div>
         <div className="project-card private-cloud">
           <div className="project-card-header">
@@ -79,7 +79,7 @@ export default function Projects() {
               />
             </div>
           </div>
-          <div className="private-cloud-pic"> </div>
+          {/* <div className="private-cloud-pic"> </div> */}
         </div>
       </div>
     </>

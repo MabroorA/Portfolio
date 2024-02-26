@@ -5,10 +5,7 @@
   margin: 10px;
   font-size: x-large;
 }
-.rlist a:hover {
-  color:lightcoral;
-  
-}
+
 .name{
   font-size: x-large;
   font-weight:bold;
@@ -32,7 +29,6 @@
   animation: fade-down 0.7s ease-in;
   
 }
-
 @keyframes fade-down {
   0% {
     opacity: 0;

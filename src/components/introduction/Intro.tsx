@@ -1,8 +1,5 @@
 import "./Intro.css";
 import pfp from "./pfp.jpg"
-import { BsLinkedin } from "react-icons/bs";
-import { SiGmail } from "react-icons/si";
-import { FaGithub } from "react-icons/fa";
 import { PiHandWavingFill } from "react-icons/pi";
 
 
@@ -24,7 +21,7 @@ export default function Intro() {
             </h6>
           </div>
           <div className="links">
-            <a className="gmail" href="mabroorahmed2@gmail.com">
+            {/* <a className="gmail" href="mabroorahmed2@gmail.com">
               <SiGmail className="icon" color="#EE7470" />
               Mabroorahmed2@gmail.com
             </a>
@@ -38,7 +35,7 @@ export default function Intro() {
             <a className="github" href="https://github.com/MabroorA">
               <FaGithub className="icon" />
               Github
-            </a>
+            </a> */}
           </div>
         </div>
       </div>

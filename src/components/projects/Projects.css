@@ -65,7 +65,7 @@
 .stock-pic{
   height: 200px;
   width: 400px;
-  background-image: url("./Stocks-prediction_home.jpg");
+  background-image: url("./Stocks-home.jpg");
   background-size: cover;
   border-radius: 8px;
 }

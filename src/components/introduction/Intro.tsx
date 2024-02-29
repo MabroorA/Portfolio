@@ -21,21 +21,6 @@ export default function Intro() {
             </h6>
           </div>
           <div className="links">
-            {/* <a className="gmail" href="mabroorahmed2@gmail.com">
-              <SiGmail className="icon" color="#EE7470" />
-              Mabroorahmed2@gmail.com
-            </a>
-            <a
-              className="linkedin"
-              href="https://www.linkedin.com/in/mabroor-dev/"
-            >
-              <BsLinkedin className="icon" color="#2966BC" />
-              Linkedin
-            </a>
-            <a className="github" href="https://github.com/MabroorA">
-              <FaGithub className="icon" />
-              Github
-            </a> */}
           </div>
         </div>
       </div>

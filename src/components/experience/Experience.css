@@ -16,9 +16,14 @@
   width: calc(33.33% - 20px); /* Adjust the width to fit 3 cards in a row with spacing */
   margin-bottom: 20px;
   border-radius: 8px;
+  padding: 10px;
+  border:2px  solid;
+  transition: border 0.7s ease;
 
 }
-
+.experience-card:hover{
+  border: 2px lightcoral solid;
+}
 
 .experience .experience-card-header {
   display: flex;
@@ -33,9 +38,6 @@
 
 }
 
-.experience .position-name {
-  margin-right: 0; /* Push the position name to the far left */
-}
 
 .experience .company-name {
   font-size: smaller; /* Make the company name smaller */

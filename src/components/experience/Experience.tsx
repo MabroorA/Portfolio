@@ -25,6 +25,23 @@ export default function Experience() {
             </ul>
           </ul>
         </div>
+        <h4 className="experience-sub-title">Shopify Developer - Miero</h4>
+        <div className="experience-description">
+          <ul>
+            <ul>
+              Designed and built a jewellery e-commerce store on shopify for
+              emerging jewellery items.
+            </ul>
+            <ul>
+              Implemented UX/UI principles to create high converting product and
+              checkout pages.
+            </ul>
+            <ul>
+              Improved mobile experience, reducing bounce rates by 15% and
+              increasing revenue.
+            </ul>
+          </ul>
+        </div>
         <h4 className="experience-sub-title">
           Teaching assistant - University of Leicester
         </h4>

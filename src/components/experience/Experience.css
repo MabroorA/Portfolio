@@ -1,16 +1,27 @@
 .experience {
-
   margin: 40px auto;
-
 }
-.experience-title{
-  font-size: xx-large;
+
+.experience-title {
+  font-size: 28px;
   color: white;
 }
 
-.experience-sub-title{
+.experience-item {
+  margin-bottom: 30px;
+}
+
+.experience-sub-title {
+  font-size: 22px;
   color: lightcoral;
 }
-.experience-description{
+
+.experience-description {
   color: white;
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.experience-description li {
+  margin-bottom: 10px;
 }

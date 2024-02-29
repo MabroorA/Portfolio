@@ -3,85 +3,85 @@ import "./Experience.css";
 export default function Experience() {
   return (
     <>
-      <div className="experience">
+      <section className="experience">
         <h2 className="experience-title">Experience</h2>
-        <h4 className="experience-sub-title">
-          Web Developer Intern - Minibikers
-        </h4>
-        <div className="experience-description">
-          <ul>
-            <ul>
+        <div className="experience-item">
+          <h3 className="experience-sub-title">
+            Web Developer Intern - Minibikers
+          </h3>
+          <ul className="experience-description">
+            <li>
               Worked in an agile working environment with sprint-like
               checkpoints, ensuring efficient progress and timely task
               completion.
-            </ul>
-            <ul>
+            </li>
+            <li>
               Implemented front-end features using HTML, CSS, and JavaScript to
-              enhance user experience
-            </ul>
-            <ul>
-              Optimised website performance by analysing and refining code for
+              enhance user experience.
+            </li>
+            <li>
+              Optimized website performance by analyzing and refining code for
               improved loading times.
-            </ul>
+            </li>
           </ul>
         </div>
-        <h4 className="experience-sub-title">Shopify Developer - Miero</h4>
-        <div className="experience-description">
-          <ul>
-            <ul>
-              Designed and built a jewellery e-commerce store on shopify for
+        <div className="experience-item">
+          <h3 className="experience-sub-title">Shopify Developer - Miero</h3>
+          <ul className="experience-description">
+            <li>
+              Designed and built a jewellery e-commerce store on Shopify for
               emerging jewellery items.
-            </ul>
-            <ul>
+            </li>
+            <li>
               Implemented UX/UI principles to create high converting product and
               checkout pages.
-            </ul>
-            <ul>
+            </li>
+            <li>
               Improved mobile experience, reducing bounce rates by 15% and
               increasing revenue.
-            </ul>
+            </li>
           </ul>
         </div>
-        <h4 className="experience-sub-title">
-          Teaching assistant - University of Leicester
-        </h4>
-        <div className="experience-description">
-          <ul>
-            <ul>
-              Served as a Teaching Assistant for the requirements Engineering
-              and Professional Practice.
-            </ul>
-            <ul>
+        <div className="experience-item">
+          <h3 className="experience-sub-title">
+            Teaching Assistant - University of Leicester
+          </h3>
+          <ul className="experience-description">
+            <li>
+              Served as a Teaching Assistant for the Requirements Engineering
+              and Professional Practice courses.
+            </li>
+            <li>
               Assisted students with teamwork, GitLab, and software requirement
               gathering, supporting them in collaborative group projects
-              utilising Git.
-            </ul>
-            <ul>
+              utilizing Git.
+            </li>
+            <li>
               Guided students in creating high-quality requirements, sketches,
               prototypes, and UML models.
-            </ul>
+            </li>
           </ul>
         </div>
-        <h4 className="experience-sub-title">
-          Audio Transmissions Intern - MTA TV Channel
-        </h4>
-        <div className="experience-description">
-          <ul>
-            <ul>
-              Collaborated with a professional team to plan, organise, and
+        <div className="experience-item">
+          <h3 className="experience-sub-title">
+            Audio Transmissions Intern - MTA TV Channel
+          </h3>
+          <ul className="experience-description">
+            <li>
+              Collaborated with a professional team to plan, organize, and
               install audio systems.
-            </ul>
-            <ul>
+            </li>
+            <li>
               Gained hands-on experience by shadowing audio engineers during the
               mixing and adjustment of audio.
-            </ul>
-            <ul>
+            </li>
+            <li>
               Demonstrated problem-solving skills to complete tasks within
-              specified time constraints
-            </ul>
+              specified time constraints.
+            </li>
           </ul>
         </div>
-      </div>
+      </section>
     </>
   );
 }

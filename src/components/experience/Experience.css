@@ -1,27 +1,47 @@
-.experience {
-  margin: 40px auto;
+.experience .title {
+  font-weight: 600;
+  font-size: 35px;
+  text-align: left;
+  margin: 25px 0px 20px 0px;
 }
 
-.experience-title {
-  font-size: 28px;
-  color: white;
+.experience .experiences {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-.experience-item {
-  margin-bottom: 30px;
+.experience .experience-card {
+  position: relative;
+  width: calc(33.33% - 20px); /* Adjust the width to fit 3 cards in a row with spacing */
+  margin-bottom: 20px;
+  border-radius: 8px;
+
 }
 
-.experience-sub-title {
-  font-size: 22px;
-  color: lightcoral;
+
+.experience .experience-card-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; /* Align items to left and right */
+  border-bottom: 1px solid #333;
 }
 
+.experience .experience-title {
+  font-size: x-large;
+  color: lightcoral; /* Change text color to white */
+
+}
+
+.experience .position-name {
+  margin-right: 0; /* Push the position name to the far left */
+}
+
+.experience .company-name {
+  font-size: smaller; /* Make the company name smaller */
+  color: white; /* Change color of company name */
+}
 .experience-description {
-  color: white;
-  list-style-type: none;
-  padding-left: 20px;
-}
-
-.experience-description li {
-  margin-bottom: 10px;
+  font-size: smaller; /* Make the company name smaller */
+  color: white; /* Change color of company name */
 }

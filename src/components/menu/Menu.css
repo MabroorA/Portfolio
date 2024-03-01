@@ -4,7 +4,7 @@
   text-decoration: none;
   margin: 10px;
   font-size: x-large;
-  transition: border 0.5s ease;
+
   position: relative;
 }
 .rlist a::after { /* Add this block */
@@ -15,7 +15,7 @@
   width: 0;
   height: 2px;
   background-color: white;
-  transition: width 0.3s ease;
+  transition: width 0.5s ease;
 }
 
 .rlist a:hover::after{ /* Add this block */
@@ -41,7 +41,7 @@
   width: 0;
   height: 2px;
   background-color: white;
-  transition: width 0.3s ease;
+  transition: width 0.5s ease;
 }
 
 .name:hover::after {

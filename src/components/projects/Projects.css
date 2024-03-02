@@ -56,8 +56,7 @@
 }
     
 .stocks-prediction:hover{
-  cursor:default;
-  border-radius: 8px;
+  cursor:pointer;
 }
 .project-card-header{
   display:flex ;

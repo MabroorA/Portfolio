@@ -29,7 +29,10 @@
     flex-direction: column;
     animation: fade-right 0.7s ease-in-out;
     width: 400px;
-    transition: transform 0.3s ease;
+    padding: 5px;
+    border:2px  solid;
+    border-radius: 16px;
+    transition: transform 0.3s ease,border 0.7s ease;
 
 }
 .projects:hover .project-card {
@@ -38,6 +41,7 @@
 
 .projects .project-card:hover {
   transform: scale(1.2);
+  border: 2px lightcoral solid;
 }
 
 .projects:hover .project-card:hover {
@@ -64,21 +68,21 @@
 }
 .stock-pic{
   height: 200px;
-  width: 400px;
+  width: 380px;
   background-image: url("./Stocks-home.jpg");
   background-size: cover;
   border-radius: 8px;
 }
 .refuge-aid-pic{
   height: 200px;
-  width: 400px;
+  width: 380px;
   background-image: url("./refugeap-home.jpg");
   background-size: cover;
   border-radius: 8px;
 }
 .private-cloud-pic{
   height: 200px;
-  width: 400px;
+  width: 380px;
   background-image: url("./Cloud-app-home.jpg");
   background-size: cover;
   border-radius: 8px;

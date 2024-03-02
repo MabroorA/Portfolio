@@ -97,7 +97,6 @@ export default function Experience() {
               </ul>
             </div>
           </div>
-          {/* Add additional experiences here */}
         </div>
       </section>
     </>

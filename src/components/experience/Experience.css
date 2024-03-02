@@ -19,7 +19,7 @@
   padding: 10px;
   border:2px  solid;
   transition: border 0.7s ease;
-
+  
 }
 .experience-card:hover{
   border: 2px lightcoral solid;

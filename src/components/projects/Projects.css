@@ -29,10 +29,10 @@
     flex-direction: column;
     animation: fade-right 0.7s ease-in-out;
     width: 400px;
-    padding: 5px;
+    padding: 8px;
     border:2px  solid;
     border-radius: 16px;
-    transition: transform 0.3s ease,border 0.7s ease;
+    transition: transform 0.7s ease,border 0.7s ease;
 
 }
 .projects:hover .project-card {

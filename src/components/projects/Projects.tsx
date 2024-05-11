@@ -15,7 +15,7 @@ export default function Projects() {
         <div className="project-card stocks-prediction">
           <div className="project-card-header">
             <h4 className="project-title">Stocks Prediction </h4>
-            <div className="project-stack">
+            <div className="project-stack ">
               <FaReact
                 className="react"
                 size={30}
